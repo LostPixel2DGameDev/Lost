@@ -7,6 +7,7 @@ public class CharacterMove : MonoBehaviour
 
     private Rigidbody2D rigidbody2;
     public float speed;
+    public int length;
 
     // Start is called before the first frame update
     void Start()
@@ -22,5 +23,10 @@ public class CharacterMove : MonoBehaviour
 
         rigidbody2.velocity = new Vector2(HInput * speed * -1, VInput * speed);
 
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(length)
     }
 }
