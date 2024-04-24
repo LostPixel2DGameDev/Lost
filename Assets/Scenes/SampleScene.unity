@@ -2959,6 +2959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  length: 0
 --- !u!50 &1024199879
 Rigidbody2D:
   serializedVersion: 4
@@ -3203,7 +3204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.88895005, g: 1, b: 0.8066038, a: 0.392}
+  m_Color: {r: 0.80784315, g: 1, b: 0.8164976, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
