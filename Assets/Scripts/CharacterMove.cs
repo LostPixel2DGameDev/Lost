@@ -25,8 +25,8 @@ public class CharacterMove : MonoBehaviour
 
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        Debug.Log(length)
-    }
+    //void OnTriggerEnter(Collider other)
+    //{
+    //    Debug.Log(length);
+    //}
 }
