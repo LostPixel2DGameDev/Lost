@@ -21,7 +21,7 @@ public class CharacterMove : MonoBehaviour
         float HInput = Input.GetAxis("Horizontal");
         float VInput = Input.GetAxis("Vertical");
 
-        rigidbody2.velocity = new Vector2(HInput * speed * -1, VInput * speed);
+        rigidbody2.velocity = new Vector2(HInput * speed, VInput * speed);
 
     }
 
