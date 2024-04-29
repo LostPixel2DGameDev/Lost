@@ -138,11 +138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-<<<<<<< HEAD
   m_StaticEditorFlags: 0
-=======
-  m_StaticEditorFlags: 2147483647
->>>>>>> refs/remotes/origin/main
   m_IsActive: 1
 --- !u!156049354 &147995009
 Grid:
@@ -171,16 +167,9 @@ Transform:
   m_Children:
   - {fileID: 507643041}
   - {fileID: 1874511708}
-<<<<<<< HEAD
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &468010678
-=======
-  - {fileID: 172873797}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &172873796
->>>>>>> refs/remotes/origin/main
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,48 +177,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
   - component: {fileID: 468010679}
   - component: {fileID: 468010681}
   - component: {fileID: 468010680}
   m_Layer: 5
   m_Name: Text (TMP)
-=======
-  - component: {fileID: 172873797}
-  - component: {fileID: 172873799}
-  - component: {fileID: 172873798}
-  m_Layer: 0
-  m_Name: Tilemap
->>>>>>> refs/remotes/origin/main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
 --- !u!224 &468010679
 RectTransform:
-=======
---- !u!4 &172873797
-Transform:
->>>>>>> refs/remotes/origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 468010678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-=======
-  m_GameObject: {fileID: 172873796}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
->>>>>>> refs/remotes/origin/main
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<< HEAD
   m_Father: {fileID: 2119732430}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -239,17 +208,10 @@ Transform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &468010680
 MonoBehaviour:
-=======
-  m_Father: {fileID: 147995010}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!483693784 &172873798
-TilemapRenderer:
->>>>>>> refs/remotes/origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 468010678}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -335,94 +297,12 @@ TilemapRenderer:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &468010681
 CanvasRenderer:
-=======
-  m_GameObject: {fileID: 172873796}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
-  m_MaxChunkCount: 16
-  m_MaxFrameAge: 16
-  m_SortOrder: 0
-  m_Mode: 0
-  m_DetectChunkCullingBounds: 0
-  m_MaskInteraction: 0
---- !u!1839735485 &172873799
-Tilemap:
->>>>>>> refs/remotes/origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 468010678}
   m_CullTransparentMesh: 1
-=======
-  m_GameObject: {fileID: 172873796}
-  m_Enabled: 1
-  m_Tiles: {}
-  m_AnimatedTiles: {}
-  m_TileAssetArray: []
-  m_TileSpriteArray: []
-  m_TileMatrixArray: []
-  m_TileColorArray: []
-  m_TileObjectToInstantiateArray: []
-  m_AnimationFrameRate: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 0, y: 0, z: 1}
-  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
-  m_TileOrientation: 0
-  m_TileOrientationMatrix:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
->>>>>>> refs/remotes/origin/main
 --- !u!1 &507643040
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,26 +314,13 @@ GameObject:
   - component: {fileID: 507643041}
   - component: {fileID: 507643043}
   - component: {fileID: 507643042}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 507643044}
-  - component: {fileID: 507643045}
->>>>>>> refs/remotes/origin/main
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-<<<<<<< HEAD
   m_StaticEditorFlags: 0
-=======
-  m_StaticEditorFlags: 2147483647
->>>>>>> refs/remotes/origin/main
-  m_IsActive: 1
 --- !u!4 &507643041
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 507643040}
@@ -2529,21 +2396,11 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 3ffd884dc364f794fa2a37f3f0bedc00, type: 2}
   - m_RefCount: 103
     m_Data: {fileID: 11400000, guid: 449ce93c1e7892244851a9e40d8ac0b6, type: 2}
-<<<<<<< HEAD
-=======
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
->>>>>>> refs/remotes/origin/main
   m_TileSpriteArray:
   - m_RefCount: 103
     m_Data: {fileID: 21300000, guid: f83c14ea555ea441ba2343fc6d6dc361, type: 3}
   - m_RefCount: 97
     m_Data: {fileID: 21300000, guid: 78360942f81954be0bc61a2cac662cc0, type: 3}
-<<<<<<< HEAD
-=======
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
->>>>>>> refs/remotes/origin/main
   m_TileMatrixArray:
   - m_RefCount: 200
     m_Data:
@@ -2565,11 +2422,7 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - m_RefCount: 0
-<<<<<<< HEAD
     m_Data: {r: 3.9584e-41, g: 3.9584e-41, b: 3.9584e-41, a: 3.9584e-41}
-=======
-    m_Data: {r: NaN, g: NaN, b: NaN, a: NaN}
->>>>>>> refs/remotes/origin/main
   - m_RefCount: 200
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
@@ -2596,93 +2449,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
-<<<<<<< HEAD
-=======
---- !u!50 &507643044
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507643040}
-  m_BodyType: 2
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!68 &507643045
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507643040}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -13, y: 0}
-  - {x: -8.078216, y: 4.528164}
-  - {x: -8.104246, y: 2.9138622}
-  - {x: -7.0524907, y: 2.8968666}
-  - {x: -7.070935, y: 4.4081426}
-  - {x: -6.03908, y: 4.3292475}
-  - {x: -6.0948524, y: 2.9298713}
-  - {x: -4.9924154, y: 2.9559467}
-  - {x: -5.023312, y: 4.431548}
-  - {x: -3.9776545, y: 4.7608986}
-  - {x: -4.077207, y: 2.899913}
-  - {x: -2.989115, y: 2.8955762}
-  - {x: -3.0063071, y: 4.476966}
-  - {x: -1.9632463, y: 4.449577}
-  - {x: -2.010188, y: 2.3960814}
-  - {x: -2.0887566, y: 2.2648768}
-  - {x: 3.0324974, y: -0.012744701}
-  - {x: 10, y: 0}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
->>>>>>> refs/remotes/origin/main
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
