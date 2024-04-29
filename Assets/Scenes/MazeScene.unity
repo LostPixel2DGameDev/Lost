@@ -2555,15 +2555,15 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-
+<<<<<<< HEAD
   orthographic size: 2
-
-
+=======
+<<<<<<< HEAD
   orthographic size: 1.2
-
+=======
   orthographic size: 2
 >>>>>>> 73217d318c8c9bb20d840d0c1406a827590e9574
-
+>>>>>>> refs/remotes/origin/main
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2587,9 +2587,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
-
-
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.17, y: 0.02, z: -3.08}
   m_LocalScale: {x: 0.4361964, y: 0.83752096, z: 1}
@@ -2597,8 +2597,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1024199881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
-
+=======
+>>>>>>> refs/remotes/origin/main
   m_LocalRotation: {x: -0.011228842, y: -0.9833198, z: -0.15849961, w: -0.08851041}
   m_LocalPosition: {x: -3.5688791, y: -6.9430485, z: 21.1}
   m_LocalScale: {x: 1.6323961, y: 4.036004, z: 1.9934454}
@@ -2606,10 +2606,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1024199881}
   m_LocalEulerAnglesHint: {x: -18.043, y: -190.767, z: 3.023}
-
-
+<<<<<<< HEAD
+=======
 >>>>>>> 73217d318c8c9bb20d840d0c1406a827590e9574
-
+>>>>>>> refs/remotes/origin/main
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2740,8 +2740,11 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
+<<<<<<< HEAD
   m_AngularDrag: 0.05
+=======
   m_AngularDrag: 0
+>>>>>>> refs/remotes/origin/main
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -2854,11 +2857,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-
+<<<<<<< HEAD
   m_Offset: {x: -0.013263524, y: 0.036416978}
-
+=======
   m_Offset: {x: -0.013263546, y: 0.051742017}
-
+>>>>>>> refs/remotes/origin/main
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2869,17 +2872,19 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-
+<<<<<<< HEAD
   m_Size: {x: 0.5172138, y: 0.71426696}
   m_EdgeRadius: 0
 --- !u!1 &1037091504
-
+=======
   m_Size: {x: 0.42691773, y: 0.6836169}
   m_EdgeRadius: 0
-
+<<<<<<< HEAD
+--- !u!1 &1037091504
+=======
 --- !u!1 &1407556789
-
-
+>>>>>>> refs/remotes/origin/main
+>>>>>>> refs/remotes/origin/main
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2887,34 +2892,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-
-
-
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
   - component: {fileID: 1037091505}
   - component: {fileID: 1037091507}
   - component: {fileID: 1037091506}
   m_Layer: 5
   m_Name: DialogueBox
-
-
-
+<<<<<<< HEAD
+=======
+=======
   - component: {fileID: 1407556792}
   - component: {fileID: 1407556791}
   - component: {fileID: 1407556790}
   m_Layer: 0
   m_Name: EventSystem
-
-
+>>>>>>> refs/remotes/origin/main
+>>>>>>> refs/remotes/origin/main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-
-
-
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
 --- !u!224 &1037091505
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2923,11 +2928,11 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037091504}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0}
-
+=======
   m_LocalPosition: {x: 0, y: 0, z: 100}
-
+>>>>>>> refs/remotes/origin/main
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2935,28 +2940,29 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 0, y: -200}
   m_SizeDelta: {x: -200.00002, y: -600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1037091506
-
+=======
   m_AnchoredPosition: {x: -245, y: -174.2}
   m_SizeDelta: {x: -510, y: -0.624}
   m_Pivot: {x: 0.5, y: 0.5}
-
+--- !u!114 &1037091506
+=======
 --- !u!114 &1407556790
-
-
+>>>>>>> refs/remotes/origin/main
+>>>>>>> refs/remotes/origin/main
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-
-
-
-
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/main
   m_GameObject: {fileID: 1037091504}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2983,9 +2989,9 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1037091507
 CanvasRenderer:
-
-
-
+<<<<<<< HEAD
+=======
+=======
   m_GameObject: {fileID: 1407556789}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3002,20 +3008,20 @@ CanvasRenderer:
   m_ForceModuleActive: 0
 --- !u!114 &1407556791
 MonoBehaviour:
-
-
+>>>>>>> refs/remotes/origin/main
+>>>>>>> refs/remotes/origin/main
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-
+<<<<<<< HEAD
   m_GameObject: {fileID: 1037091504}
   m_CullTransparentMesh: 1
-
-
+=======
+<<<<<<< HEAD
   m_GameObject: {fileID: 1037091504}
   m_CullTransparentMesh: 1
-
+=======
   m_GameObject: {fileID: 1407556789}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -3040,8 +3046,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
-
+>>>>>>> refs/remotes/origin/main
+>>>>>>> refs/remotes/origin/main
 --- !u!1 &1874511707
 GameObject:
   m_ObjectHideFlags: 0
@@ -3060,11 +3066,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-
+<<<<<<< HEAD
   m_StaticEditorFlags: 0
-
+=======
   m_StaticEditorFlags: 2147483647
-
+>>>>>>> refs/remotes/origin/main
   m_IsActive: 1
 --- !u!4 &1874511708
 Transform:
@@ -4169,7 +4175,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-
+<<<<<<< HEAD
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 103
@@ -4179,7 +4185,7 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: f83c14ea555ea441ba2343fc6d6dc361, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 103
-
+=======
   - first: {x: -10, y: 5, z: 0}
     second:
       serializedVersion: 2
@@ -4393,7 +4399,7 @@ Tilemap:
     m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 123
-
+>>>>>>> refs/remotes/origin/main
     m_Data:
       e00: 1
       e01: 0
@@ -4412,15 +4418,21 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
+<<<<<<< HEAD
   - m_RefCount: 103
+=======
   - m_RefCount: 123
+>>>>>>> refs/remotes/origin/main
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -10, y: -5, z: 0}
+<<<<<<< HEAD
   m_Size: {x: 20, y: 10, z: 1}
+=======
   m_Size: {x: 20, y: 12, z: 1}
+>>>>>>> refs/remotes/origin/main
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -4648,11 +4660,11 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-
+<<<<<<< HEAD
   m_AdditionalShaderChannelsFlag: 25
-
+=======
   m_AdditionalShaderChannelsFlag: 0
-
+>>>>>>> refs/remotes/origin/main
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -4670,7 +4682,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1037091505}
+<<<<<<< HEAD
   - {fileID: 468010679}
+=======
+>>>>>>> refs/remotes/origin/main
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4685,10 +4700,14 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 147995010}
   - {fileID: 1024199881}
+<<<<<<< HEAD
   - {fileID: 2119732430}
   - {fileID: 2003246978}
+=======
+<<<<<<< HEAD
   - {fileID: 2119732430}
   - {fileID: 2003246978}
+=======
   - {fileID: 1407556792}
-
-
+>>>>>>> refs/remotes/origin/main
+>>>>>>> refs/remotes/origin/main
