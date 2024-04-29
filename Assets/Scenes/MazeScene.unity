@@ -2740,11 +2740,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-
   m_AngularDrag: 0.05
-
   m_AngularDrag: 0
-
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -4418,21 +4415,15 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-
   - m_RefCount: 103
-
   - m_RefCount: 123
-
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -10, y: -5, z: 0}
-
   m_Size: {x: 20, y: 10, z: 1}
-
   m_Size: {x: 20, y: 12, z: 1}
-
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -4682,10 +4673,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1037091505}
-
   - {fileID: 468010679}
-
-
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4700,14 +4688,10 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 147995010}
   - {fileID: 1024199881}
-
   - {fileID: 2119732430}
   - {fileID: 2003246978}
-
-
   - {fileID: 2119732430}
   - {fileID: 2003246978}
-
   - {fileID: 1407556792}
 
 
