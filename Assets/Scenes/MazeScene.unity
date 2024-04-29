@@ -2877,8 +2877,6 @@ BoxCollider2D:
   m_Size: {x: 0.42691773, y: 0.6836169}
   m_EdgeRadius: 0
 
---- !u!1 &1037091504
-
 --- !u!1 &1407556789
 
 
@@ -2946,7 +2944,6 @@ RectTransform:
   m_AnchoredPosition: {x: -245, y: -174.2}
   m_SizeDelta: {x: -510, y: -0.624}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1037091506
 
 --- !u!114 &1407556790
 
