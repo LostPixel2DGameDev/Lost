@@ -1,22 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-public abstract class NPC : MonoBehaviour
+public class Chest : MonoBehaviour
 {
+    // Start is called before the first frame update
     void Start()
     {
         
     }
 
     // Update is called once per frame
-    public void Update()
+    void Update()
     {
-        if (Keyboard.current.eKey.wasPressedThisFrame)
-        {
-
-        }
         
     }
 }
