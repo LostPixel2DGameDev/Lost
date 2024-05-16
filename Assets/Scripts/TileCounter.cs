@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class TileCounter : MonoBehaviour
 {
-    public int counter;
 
     // Start is called before the first frame update
     void Start()
     {
-        counter = 0;
+
     }
 
     // Update is called once per frame
@@ -20,6 +19,6 @@ public class TileCounter : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        counter++;
+        UITileCounter.instance.AddStep();
     }
 }
