@@ -1,39 +1,35 @@
 using UnityEngine;
 
-using System.Collections;
-
- 
-
 [RequireComponent(typeof(Explodable))]
+public class ExplodeOnClick : MonoBehaviour
+{
+    private Explodable _explodable;
 
-public class ExplodeOnClick : MonoBehaviour {
+    private void Start()
+    {
+        _explodable = GetComponent<Explodable>();
+        if (_explodable == null)
+        {
+            Debug.LogError("Explodable component not found!");
+        }
+    }
 
- 
-
-                public Explodable _explodable;
-
- 
-
-                void Start()
-
-                {
-
-                                _explodable = GetComponent<Explodable>();
-
-                }
-
-                void OnMouseDown()
-
-                {
-
-                                _explodable.explode();
-
-                                ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
-
-                                ef.doExplosion(transform.position);
-
-                }
-
+    private void OnMouseDown()
+    {
+        if (_explodable != null)
+        {
+            _explodable.explode();
+            ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
+            if (ef != null)
+            {
+                ef.doExplosion(transform.position);
+            }
+            else
+            {
+                Debug.LogError("ExplosionForce component not found!");
+            }
+        }
+    }
 }
 
- 
+
