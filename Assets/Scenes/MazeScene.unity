@@ -2937,6 +2937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859a7ef0a4871764c9a68177c1e54734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _explodable: {fileID: 0}
 --- !u!212 &861302914
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3739,7 +3740,7 @@ Transform:
   m_GameObject: {fileID: 1292505525}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0114548495, w: 0.99993443}
-  m_LocalPosition: {x: 5536.2744, y: 5285.9688, z: 1}
+  m_LocalPosition: {x: 4918.2, y: 4755.9, z: 1}
   m_LocalScale: {x: 93.45091, y: 87.90988, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3957,7 +3958,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1519001719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4064,7 +4065,7 @@ Transform:
   m_GameObject: {fileID: 1519001718}
   serializedVersion: 2
   m_LocalRotation: {x: -0.000018256249, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 917.1818, y: 139.5716, z: 0.0001}
+  m_LocalPosition: {x: 917.1818, y: -487, z: 0}
   m_LocalScale: {x: 374.71533, y: 340.4791, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
