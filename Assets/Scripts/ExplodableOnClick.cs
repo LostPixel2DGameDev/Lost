@@ -3,9 +3,9 @@ using UnityEngine;
 [RequireComponent(typeof(Explodable))]
 public class ExplodeOnClick : MonoBehaviour
 {
-    private Explodable _explodable;
+    public Explodable _explodable;
 
-    private void Start()
+    public void Start()
     {
         _explodable = GetComponent<Explodable>();
         if (_explodable == null)
@@ -14,11 +14,11 @@ public class ExplodeOnClick : MonoBehaviour
         }
     }
 
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
         if (_explodable != null)
         {
-            _explodable.explode();
+            _explodable.Explode();
             ExplosionForce ef = GameObject.FindObjectOfType<ExplosionForce>();
             if (ef != null)
             {

@@ -34,7 +34,7 @@ public class ExplodableFragments : ExplodableAddon{
 
  
 
-            fragExp.fragmentInEditor();
+            fragExp.FragmentInEditor();
 
         }
 
