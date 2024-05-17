@@ -17,7 +17,7 @@ public class UITileCounter : MonoBehaviour
     
     void Start()
     {
-        Count = -4;
+        Count = 0;
         TileCount.text = "Step Count: " + Count;
     }
 
