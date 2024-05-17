@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7372e1cf1c2924cb8b9341dada30a588, type: 3}
   m_Name: TestConversation
   m_EditorClassIdentifier: 
-  speakerName: Mysterious Voice
+  speakerName: Mysterious Person
   paragraphs:
   - Congrats on passing the first trial...
+  - 'Dare to tell me your name? Blah Blah Blah Blah Blah hfsjfhsjfhsjfhsdjfhfhdjfhjsfhdsjfsjhfsdjfhsjfhsjdfhsjdhfsjfhsjdfhsjfsjfsdjfhj.
+
+'

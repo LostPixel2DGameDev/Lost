@@ -9,15 +9,5 @@ public class Dialogue : ScriptableObject
 
     [TextArea(5, 10)]
     public string[] paragraphs;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
