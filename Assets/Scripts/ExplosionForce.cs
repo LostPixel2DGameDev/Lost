@@ -44,7 +44,7 @@ public class ExplosionForce : MonoBehaviour {
 
     /// <returns></returns>
 
-                private IEnumerator waitAndExplode(){
+                public IEnumerator waitAndExplode(){
 
                                 yield return new WaitForFixedUpdate();
 
@@ -84,7 +84,7 @@ public class ExplosionForce : MonoBehaviour {
 
     /// <param name="upliftModifier">factor of additional upward force</param>
 
-    private void AddExplosionForce(Rigidbody2D body, float explosionForce, Vector3 explosionPosition, float explosionRadius, float upliftModifier = 0)
+    public void AddExplosionForce(Rigidbody2D body, float explosionForce, Vector3 explosionPosition, float explosionRadius, float upliftModifier = 0)
 
                 {
 
